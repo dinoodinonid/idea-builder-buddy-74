@@ -30,7 +30,7 @@ export const RecipeCard = ({ recipe, onClick }: RecipeCardProps) => {
 
   return (
     <Card 
-      className="group cursor-pointer overflow-hidden transition-all duration-300 hover:shadow-[var(--shadow-card)] hover:-translate-y-1 bg-gradient-to-b from-cream to-card border-sage/20"
+      className="group cursor-pointer overflow-hidden transition-all duration-300 hover:shadow-[var(--shadow-card)] hover:-translate-y-1 bg-gradient-to-b from-cream to-card border-sage/20 animate-fade-in"
       onClick={onClick}
     >
       <div className="relative h-48 overflow-hidden">
